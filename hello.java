@@ -6,9 +6,13 @@ class Hello
 {
 public static void main(String args[])
 {
-for(int i = 0; i < 5, i++)
+Scanner s = new Scanner(System.in);
+System.out.println("Enter the string :");	
+String s1 = s.nextLine();	
+for(int i = 0; i < 5; i++)
 	{
-			System.out.println("Hello!");
+			System.out.println(s1);
 	}
+	
 }
 }
